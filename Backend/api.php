@@ -19,8 +19,8 @@ if($isValidRequest)
      save($request);
 } else {
     $statusCode = 400;
-    $mesage = "Requisição inválida";
-    sendNotification($statusCode,$mesage);
+    $message = "Requisição inválida";
+    sendNotification($statusCode,$message);
 }
   
 
