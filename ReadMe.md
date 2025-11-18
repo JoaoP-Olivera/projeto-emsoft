@@ -24,6 +24,7 @@ Caso utilize um ambiente como XAMPP ou WAMP, basta colocar o projeto dentro da p
 - `htdocs` (XAMPP)
 - `www` (WAMP)
 - `www` (Laragon)
+- `PHP Built-In Server` (PHP) A mais simples
 
 ---
 ## Acessando pelo navegador
