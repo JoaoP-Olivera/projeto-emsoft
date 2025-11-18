@@ -27,6 +27,7 @@ Se quiser usar um cliente HTTP (Postman, Insomnia, curl, etc), utilize o endpoin
 http://localhost:8000/Backend/api.php
 
 Formato esperado do JSON para requisições: 
+
 ![alt text](image.png)
 
 ## Como executar o servidor
