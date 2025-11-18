@@ -1,38 +1,44 @@
-# Projeto EMSoft Sistemas
+# 📦 Projeto - Busca CEP  
 
-## Estrutura do Projeto
+## Projeto proposto pela empresa:
+![Screenshot da aplicação aplicação](https://www.emsoft.inf.br/wp-content/uploads/2018/08/logo_horizontal_208x52_orange.png)
 
-![alt text](image-1.png)
+---
 
-## Requisitos
+## 📌 Requisitos
 
-- PHP >= 8.0  
-- Servidor com suporte para PHP (Windows, Linux, Mac)
+Para executar este projeto, você precisa ter instalado:
 
-## Como instalar o PHP
+- **PHP 7.4+** (versões mais recentes também funcionam)
+- **Servidor embutido do PHP** ou qualquer servidor local (Apache, Nginx, XAMPP, WAMP, Laragon etc.)
+- **Navegador moderno** (Chrome, Firefox, Edge…)
 
-Siga as instruções oficiais do PHP para instalar no seu sistema operacional:
+---
 
-- [Instalando PHP no Windows](https://www.php.net/manual/en/install.windows.php)  
-- [Instalando PHP no Linux](https://www.php.net/manual/en/install.unix.php)  
-- [Instalando PHP no macOS](https://www.php.net/manual/en/install.macos.php)  
+## 📥 Instalação das Dependências
 
-## Como acessar a aplicação
+Este projeto **não possui dependências externas**, portanto nenhuma instalação adicional é necessária.
 
+Caso utilize um ambiente como XAMPP ou WAMP, basta colocar o projeto dentro da pasta:
 
-Abra o navegador e acesse:
-http://localhost:8000 no navegador
+- `htdocs` (XAMPP)
+- `www` (WAMP)
+- `www` (Laragon)
+- `PHP Built-In Server` (PHP) A mais simples
 
-Se quiser usar um cliente HTTP (Postman, Insomnia, curl, etc), utilize o endpoint:
-http://localhost:8000/Backend/api.php
+---
+## Acessando pelo navegador
+Basta por o seguinte link na url após iniciar o servidor : localhost:8000
+## Para acessar por um cliente HTTP
+Basta enviar a requisição para http://localhost:8000/Backend/api.php
 
-Formato esperado do JSON para requisições: 
+com os seguinte payload :
 
 ![alt text](image.png)
 
-## Como executar o servidor
+## ▶️ Como executar o servidor
 
-No terminal, navegue até a pasta raiz do projeto (onde está o arquivo `api.php`) e execute o comando:
+Se quiser rodar usando o **servidor embutido do PHP**, navegue até a pasta do projeto pelo terminal e execute:
 
 ```bash
-php -S localhost:8000  
+php -S localhost:8000
