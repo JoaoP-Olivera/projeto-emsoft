@@ -16,7 +16,7 @@ Para executar este projeto, você precisa ter instalado:
 ---
 ## Estrutura do projeto 
 
-![alt text](image-1.png)
+![alt text](Data/image-1.png)
 
 ## 📥 Instalação das Dependências
 
