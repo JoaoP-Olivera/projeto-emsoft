@@ -1,7 +1,4 @@
-# 📦 Projeto - Busca CEP
-
-Este projeto é um desafio proposto pela empresa
-![Screenshot da aplicação aplicação](https://www.emsoft.inf.br/wp-content/uploads/2018/08/logo_horizontal_208x52_orange.png)
+# 📦 Projeto - Busca CEP  ![Screenshot da aplicação aplicação](https://www.emsoft.inf.br/wp-content/uploads/2018/08/logo_horizontal_208x52_orange.png)
 
 ---
 
