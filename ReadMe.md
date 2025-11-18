@@ -15,7 +15,7 @@ Para executar este projeto, você precisa ter instalado:
 
 ---
 ## Estrutura do projeto 
-![Screenshot da aplicação aplicação](image-1.png)
+![alt text](image-1.png)
 ## 📥 Instalação das Dependências
 
 Este projeto **não possui dependências externas**, portanto nenhuma instalação adicional é necessária.
