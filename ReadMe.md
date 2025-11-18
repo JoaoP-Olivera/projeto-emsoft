@@ -1,44 +1,38 @@
-# 📦 Projeto - Busca CEP  
+# Projeto EMSoft Sistemas
 
-## Projeto proposto pela empresa:
-![Screenshot da aplicação aplicação](https://www.emsoft.inf.br/wp-content/uploads/2018/08/logo_horizontal_208x52_orange.png)
+## Estrutura do Projeto
 
----
+![alt text](image-1.png)
 
-## 📌 Requisitos
+## Requisitos
 
-Para executar este projeto, você precisa ter instalado:
+- PHP >= 8.0  
+- Servidor com suporte para PHP (Windows, Linux, Mac)
 
-- **PHP 7.4+** (versões mais recentes também funcionam)
-- **Servidor embutido do PHP** ou qualquer servidor local (Apache, Nginx, XAMPP, WAMP, Laragon etc.)
-- **Navegador moderno** (Chrome, Firefox, Edge…)
+## Como instalar o PHP
 
----
+Siga as instruções oficiais do PHP para instalar no seu sistema operacional:
 
-## 📥 Instalação das Dependências
+- [Instalando PHP no Windows](https://www.php.net/manual/en/install.windows.php)  
+- [Instalando PHP no Linux](https://www.php.net/manual/en/install.unix.php)  
+- [Instalando PHP no macOS](https://www.php.net/manual/en/install.macos.php)  
 
-Este projeto **não possui dependências externas**, portanto nenhuma instalação adicional é necessária.
+## Como acessar a aplicação
 
-Caso utilize um ambiente como XAMPP ou WAMP, basta colocar o projeto dentro da pasta:
 
-- `htdocs` (XAMPP)
-- `www` (WAMP)
-- `www` (Laragon)
-- `PHP Built-In Server` (PHP) A mais simples
+Abra o navegador e acesse:
+http://localhost:8000 no navegador
 
----
-## Acessando pelo navegador
-Basta por o seguinte link na url após iniciar o servidor : localhost:8000
-## Para acessar por um cliente HTTP
-Basta enviar a requisição para http://localhost:8000/Backend/api.php
+Se quiser usar um cliente HTTP (Postman, Insomnia, curl, etc), utilize o endpoint:
+http://localhost:8000/Backend/api.php
 
-com os seguinte payload :
+Formato esperado do JSON para requisições: 
 
 ![alt text](image.png)
 
-## ▶️ Como executar o servidor
+## Como executar o servidor
 
-Se quiser rodar usando o **servidor embutido do PHP**, navegue até a pasta do projeto pelo terminal e execute:
+No terminal, navegue até a pasta raiz do projeto (onde está o arquivo `api.php`) e execute o comando:
 
 ```bash
-php -S localhost:8000
+php -S localhost:8000  
