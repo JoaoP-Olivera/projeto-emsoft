@@ -1,0 +1,42 @@
+ body {
+     background: #343351;
+ }
+
+ .card {
+     border-radius: 12px;
+     border: #1a1818;
+ }
+
+ .form-control,
+ .btn {
+     border-radius: 10px;
+ }
+
+ .logo {
+     height: 55px;
+ }
+
+ .brand-header {
+     background: #454363;
+     color: #fff;
+ }
+
+ #alerts .alert {
+     opacity: 0;
+     transform: translateY(-10px);
+     transition: opacity 0.4s ease, transform 0.4s ease;
+ }
+
+ #alerts .alert.show {
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ #submit-button {
+    background:#1E5AA8; 
+    border:0;
+ }
+
+ #enderecoArea {
+    display:none;
+ }
