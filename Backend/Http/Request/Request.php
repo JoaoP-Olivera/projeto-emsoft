@@ -25,7 +25,7 @@ function receiveRequest()
 
  function validateJson($json)
  {
-    if ($data === null || (is_object($data) && empty(get_object_vars($data)))) {
+    if ($json === null || (is_object($json) && empty(get_object_vars($json)))) {
     $statusCode = 400;
     $message = "Dados inválidos. Nenhum campo foi enviado.";
     sendNotification($statusCode, $message);
